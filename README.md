@@ -8,6 +8,7 @@ Description
 -----------
 
 The device has two modes of operation (selected with a jumper):
+
 1. 'Rambo' - extended memory banks are selected with PORTB bits 2, 3, 5, 6.
    Access to extended memory by both CPU and ANTIC is controlled with PORTB
    bit 4.
@@ -30,6 +31,7 @@ Installation
 All Atari modifications are easily reversible (provided one does not - for
 example - destroy any tracks during desoldering process).
 To install the expansion one needs to:
+
 0. Assemble the memory expansion (obviously)
 1. Desolder all DRAM chips (U9..U16, U26..U33)
 2. Desolder MMU chip (U34)
