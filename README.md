@@ -9,14 +9,14 @@ Description
 
 The device has two modes of operation (selected with a jumper):
 
-1. `Rambo` - extended memory banks are selected with PORTB bits 2, 3, 5, 6.
+1. 'Rambo' - extended memory banks are selected with PORTB bits 2, 3, 5, 6.
    Access to extended memory by both CPU and ANTIC is controlled with PORTB
    bit 4.
-   To turn on this mode one needs to connect pins AUX3 and AUX4.
-2. `Compy` - extended memory banks are selected with PORTB bits 2, 3, 6, 7.
+   To turn on this mode one needs to connect pins AUX3 and AUX4 together.
+2. 'Compy' - extended memory banks are selected with PORTB bits 2, 3, 6, 7.
    Access to extended memory by CPU is controlled with PORTB bit 4. Access to
    extended memory by ANTIC is controlled with PORTB bit 5.
-   To select this mode one needs to connect pins AUX3 and AUX2.
+   To select this mode one needs to connect pins AUX3 and AUX2 together.
 
 Sources
 -------
