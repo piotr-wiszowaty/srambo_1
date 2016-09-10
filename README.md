@@ -1,7 +1,7 @@
 srambo\_1
 ========
 
-srambo\_1 is a yet another 320 kB Atari XE memory expansion. It designed for
+srambo\_1 is a yet another 320 kB [Atari](https://en.wikipedia.org/wiki/Atari_8-bit_family) XE memory expansion. It designed for
 Atari 130 XEs and 65 XEs with ECI connector.
 
 Description
@@ -9,11 +9,11 @@ Description
 
 The device has two modes of operation (selected with a jumper):
 
-1. 'Rambo' - extended memory banks are selected with PORTB bits 2, 3, 5, 6.
+1. `Rambo` - extended memory banks are selected with PORTB bits 2, 3, 5, 6.
    Access to extended memory by both CPU and ANTIC is controlled with PORTB
    bit 4.
    To turn on this mode one needs to connect pins AUX3 and AUX4.
-2. 'Compy' - extended memory banks are selected with PORTB bits 2, 3, 6, 7.
+2. `Compy` - extended memory banks are selected with PORTB bits 2, 3, 6, 7.
    Access to extended memory by CPU is controlled with PORTB bit 4. Access to
    extended memory by ANTIC is controlled with PORTB bit 5.
    To select this mode one needs to connect pins AUX3 and AUX2.
