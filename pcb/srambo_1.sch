@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:srambo_1-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -1457,7 +1458,7 @@ F 3 "" H 5100 5450 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D1
+L LED-RESCUE-srambo_1 D1
 U 1 1 57C00172
 P 5550 5450
 F 0 "D1" H 5550 5550 50  0000 C CNN
